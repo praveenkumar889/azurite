@@ -29,6 +29,8 @@ def analyze_contacts(file_path):
             print("Tags:")
             for tag in sorted(unique_tags):
                 print(f" - {tag}")
+            print("-" * 28)
+            print("End of Report")
 
     except json.JSONDecodeError:
         print("Error: The file is not a valid JSON.")
