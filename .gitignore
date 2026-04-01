@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Virtual Environments
+.venv/
+venv/
+env/
+
+# Environment Variables
+.env
+
+# Azure Functions
+local.settings.json
+
+# Azurite (Azure Storage Local Emulator)
+__blobstorage__
+__queuestorage__
+__tableStorage__
+AzuriteConfig
+_azurite_files_folder/
+
+# Editor/IDE
+.vscode/
+.idea/
+
+# Local Data files (optional, remove if you want to push this)
+content_embabed.json
